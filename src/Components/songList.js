@@ -22,7 +22,7 @@ function List(props) {
             {filteredData.map((item) => (
                 <>
                 <li key={item.id}>{item.text}</li>
-                <Button onClick={addToPlaylist(item)}>Add to Playlist</Button></>
+                <Button onClick={(item) => addToPlaylist(item)}>Add to Playlist</Button></>
             ))}
         </ul>
 

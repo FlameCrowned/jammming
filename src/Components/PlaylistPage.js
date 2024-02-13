@@ -1,7 +1,10 @@
-import { React, useState} from 'react';
-import TextField from "@mui/material/TextField";
-import List from "./songList";
-import './App.css';
-import { Button } from '@mui/material';
-import addToPlaylist from "./Helpers/playlist";
+import { React } from 'react'
+import './App.css'
 
+const PlaylistPage = () => {
+  return (
+    <div>Go Here</div>
+  )
+}
+
+export default PlaylistPage
